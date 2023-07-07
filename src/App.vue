@@ -1,6 +1,6 @@
 <template>
   <div class="ctr">
-    <Question />
+    <Question :questions="questions" />
     <Result />
     <button type="button" class="reset-btn">Reset</button>
   </div>
