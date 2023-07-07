@@ -1,20 +1,19 @@
 <template>
   <div class="ctr">
     <Question />
-    <div class="result">
-      <div class="title">You got sample result 1!</div>
-      <div class="desc">Enter a short description here about the result.</div>
-    </div>
+    <Result />
     <button type="button" class="reset-btn">Reset</button>
   </div>
 </template>
 
 <script>
 import Question from "@/components/Question.vue";
+import Result from "@/components/Result.vue";
 export default {
   name: "App",
   components: {
     Question,
+    Result,
   },
 };
 </script>
